@@ -30,7 +30,6 @@ def query_for_plot(time_start, time_end, labels, cities):
             cities = for which city you want to plot the feature, can be list or scalar
             NOTE: just cities OR labels can be a list, the other one need to be a single value (for now)
         Returns:
-            name = title of the plot
             dataframe = pandas dataframe with rows beeing the time (all timestaps can be found in a column called 'dates') 
                         and row corresoning to the freatures asked for (if both, cities and labels are single values, 
                         than the key will be the label, otherwise it will be the items in the list argument)
